@@ -6,5 +6,6 @@ def filter_by_state(list_d: list[dict[str, Any]], state_default: str = 'EXECUTED
     pass
 
 
-def sort_by_date():
+def sort_by_date(list_state: list[dict[str, Any]], reverse: bool = True) -> list[dict[str, Any]]:
+    """Функция сортирует список словарей по дате по убыванию"""
     pass
